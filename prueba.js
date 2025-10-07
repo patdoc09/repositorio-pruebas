@@ -8,7 +8,7 @@
 
 //Eventos del raton
 
-function cambiarColor(){
+function cambiarColor(){ 
     console.log('Me has dado click')
     
     var backgroundButton = boton.style.background
@@ -33,12 +33,12 @@ boton.addEventListener('click', function(){
 })
 
 //Mouse over
-boton.addEventListener('mouseover', function(){
+boton.addEventListener('mouseover', function(){ 
     boton.style.background = 'orange'
 })
 
 //Mouse out
-boton.addEventListener('mouseout', function(){
+boton.addEventListener('mouseout', function(){ 
     boton.style.background = 'pink'
 })
 
@@ -46,12 +46,12 @@ boton.addEventListener('mouseout', function(){
 //ver con focus, blur, keydown, keypress, keyup
 var input = document.querySelector('#campo_nombre')
 
-input.addEventListener('focus', function(){
+input.addEventListener('focus', function(){ 
     console.log('Estas dentro del input FOCUS')
 })
 
 //Elemento BLUR es igual solo que cuando salimos del focus
-input.addEventListener('blur', function(){
+input.addEventListener('blur', function(){ 
     console.log('Estas fuera del input BLUR')
 })
 
