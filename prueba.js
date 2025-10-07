@@ -1,5 +1,7 @@
 'use strict'
 
+//Voy a añadir comentarios
+
 //Eventos
 //Son funciones que se ejecutan cada vez que sucede algo
 //por ejemplo hacer click, que el usuario mueva el raton...
