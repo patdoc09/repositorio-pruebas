@@ -33,7 +33,7 @@ boton.addEventListener('click', function(){
 })
 
 //Mouse over
-boton.addEventListener('mouseover', function(){ 
+boton.addEventListener('mouseover', function(){  
     boton.style.background = 'orange'
 })
 
