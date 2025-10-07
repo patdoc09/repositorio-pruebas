@@ -1,6 +1,6 @@
 'use strict'
 
-//Voy a añadir comentarios
+//Voy a añadir comentarios2
 
 //Eventos
 //Son funciones que se ejecutan cada vez que sucede algo
